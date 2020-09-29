@@ -1,0 +1,541 @@
+<!doctype html>
+<html>
+  <head>
+    <title>GongSeolIp Team 2nd</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="font.css" tpyes="text/css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="back">
+    <nav><a href="introduce.html"><img src="resource/logo1.png" style="width:100px; height:70px; margin-left:20px; margin-top:20px; border-radius:15px"></a>
+    <div id="menu">
+    <ul>
+      <a href="introduce.html"><li class="menu-li">home</li></a>
+      <a href="intcol.html"><li class="menu-li">college</li></a>
+      <a href="intres.html"><li class="menu-li">restaurant</li></a>
+    </ul>
+    </div>
+    </nav>
+    <h1 style="margin-top:5px">맛 집</h1><!--소개 방향 후문~정문-->
+
+    <select id="food" name="food" style="width:250px; height:60px; font-size:20px;font-weight:bold; margin-left:80px; border-radius:20px;margin-bottom:20px">
+      <option value="1" selected = "selected">전체</option>
+      <option value="res">음식점</option>
+      <option value="drink">술집</option>
+      <option value="cafe">카페</option>
+    </select>
+
+    <div class="right" id="lunch" align="left">
+    <span class="name-l" style="margin-right:30px;">음식점</span>
+    <p style="font-size:20px; font-weight:bold">
+      저녁 <input type="checkbox" name="dinner" value="dinner"id="sel1" >
+      점심 <input type="checkbox" name="lunch" value="lunch" id="sel2">
+    </p>
+
+    <div style="margin-top:20px" class="aa">
+      <span class="lun din"><a href="babeun.html"><img src="resource/babeun4.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+      <div class = "lun din"><span class="detail-l">밥은</span>
+        <p></p>
+      <div class="detail-l-d">양도 많고 가성비 좋은 덮밥집
+      </div>
+      </div>
+
+      <span class="din lun"><a href="yoonscook.html"><img src="resource/yoons.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+      <div class="din lun"><span class="detail-l">윤스쿡</span>
+        <p></p>
+      <div class="detail-l-d">돈까스, 직화구이 전문점
+      </div>
+      </div>
+
+      <span class="lun din"><a href="2floor.html"><img src="resource/2floor1.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+      <div class="lun din"><span class="detail-l">이층집</span>
+        <p></p>
+      <div class="detail-l-d">2층에 위치한 맛있는 김치찌개, 부대찌개
+      </div>
+      </div>
+    </div>
+
+    <div style="margin-top:20px" class="aa">
+      <span class="lun"><a href="kyung.html"><img src="resource/kyung1.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+      <div class="lun"><span class="detail-l">경대컵밥</span>
+        <p></p>
+      <div class="detail-l-d">도시락, 컵밥 혼밥 맛집
+      </div>
+      </div>
+
+      <span  class="lun"><a href="kimga.html"><img src="resource/kim1.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+      <div class="lun"><span class="detail-l">김가네김밥</span>
+      <p></p>
+      <div class="detail-l-d">80주년 기념관 내부 프랜차이즈 분식집
+      </div>
+      </div>
+
+      <span class="lun din"><a href="kimcheon.html"><img src="resource/gimcheon1.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+      <div class="lun din"><span class="detail-l">김밥천국</span>
+        <p></p>
+      <div class="detail-l-d">프랜차이즈 분식점
+      </div>
+      </div>
+    </div>
+
+    <div style="margin-top:20px" class="aa">
+      <span class="lun din"><a href="kkot.html"><img src="resource/ggot1.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+      <div class="lun din"><span class="detail-l">꽃제비칼국수</span>
+        <p></p>
+      <div class="detail-l-d">푸짐한 칼국수와 닭도리탕
+      </div>
+      </div>
+
+      <span  class="lun din"><a href="gossi.html"><img src="resource/gossi1.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+      <div class="lun din"><span class="detail-l">고씨네</span>
+      <p></p>
+      <div class="detail-l-d">일본식 전통 카레 맛집. 매운맛 조절 가능
+      </div>
+      </div>
+
+      <span class="lun din"><a href="jinguk.html"><img src="resource/jin1.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+      <div class="lun din"><span class="detail-l">the 진국</span>
+        <p></p>
+      <div class="detail-l-d">수육국밥과 직화구이 냉면
+      </div>
+      </div>
+    </div>
+
+    <div style="margin-top:20px" class="aa">
+      <span class="lun"><a href="ddeok.html"><img src="resource/ddeok1.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+      <div class="lun"><span class="detail-l">떡볶이대학 라면학과</span>
+        <p></p>
+      <div class="detail-l-d">정문 앞 저렴한 분식집
+      </div>
+      </div>
+
+      <span  class="lun din"><a href="hanggi.html"><img src="resource/hanggi1.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+      <div class="lun din"><span class="detail-l">한끼철판</span>
+      <p></p>
+      <div class="detail-l-d">철판요리 전문점
+      </div>
+      </div>
+
+      <span class="lun"><a href="dideli.html"><img src="resource/deli1.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+      <div class="lun"><span class="detail-l">디델리</span>
+        <p></p>
+      <div class="detail-l-d">영업시간<br>
+      매일 10:30~21:00 (매월 둘째,넷째일요일휴무)<br>
+      주메뉴:라볶이<br>
+      </div>
+      </div>
+    </div>
+
+    <div style="margin-top:20px" class="aa">
+      <span class="lun din"><a href="sanai.html"><img src="resource/sanai1.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+      <div class="lun din"><span class="detail-l">사나이 뚝배기</span>
+        <p></p>
+      <div class="detail-l-d">80주년 기념관 내 뚝배기 전문점
+      </div>
+      </div>
+
+      <span  class="din"><a href="los2000.html"><img src="resource/los1.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+      <div class="din"><span class="detail-l">로스 2000</span>
+      <p></p>
+      <div class="detail-l-d">허브삼겹살, 볶음밥 맛집
+      </div>
+      </div>
+
+      <span class="din"><a href="hwaro.html"><img src="resource/hwaro1.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+      <div class="din"><span class="detail-l">화로상회</span>
+        <p></p>
+      <div class="detail-l-d">최상급 육질의 맛좋은 고기와(옛날생갈비, 초벌삼겹살, 원조막창, 돼지껍데기) 셀프바 무한리필
+      </div>
+      </div>
+    </div>
+
+    <div style="margin-top:20px" class="aa">
+      <span  class="lun"><a href="hansot.html"><img src="resource/hansot1.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+      <div class="lun"><span class="detail-l">한솥 도시락</span>
+      <p></p>
+      <div class="detail-l-d">80주년 기념관 내 프랜차이즈 도시락
+      </div>
+      </div>
+
+      <span class="lun din"><a href="heaven.html"><img src="resource/heaven1.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+      <div class="lun din"><span class="detail-l">피자헤븐</span>
+        <p></p>
+      <div class="detail-l-d">최고의 가성비 피자와 눈꽃 떡볶이
+      </div>
+      </div>
+
+      <span class="lun din"><a href="misik.html"><img src="resource/misik1.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+      <div class="lun din"><span class="detail-l">미식성</span>
+        <p></p>
+      <div class="detail-l-d">깐풍육이 맛있는 정문 앞 중식 맛집
+      </div>
+      </div>
+    </div>
+
+    <div style="margin-top:20px" class="aa">
+      <span class="lun"><a href="guksi.html"><img src="resource/guksi1.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+      <div class="lun"><span class="detail-l">민들레 국시</span>
+        <p></p>
+      <div class="detail-l-d">할매 손맛 저렴이 맛집
+      </div>
+      </div>
+
+      <span  class="lun din"><a href="viet.html"><img src="resource/nosang1.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+      <div class="lun din"><span class="detail-l">베트남 노상식당</span>
+      <p></p>
+      <div class="detail-l-d">늘상 방문하는 노천식 베트남 식당포차.<br>현지의 감성과 맛을 그대로 느낄 수 있는 부담없는<br> RoadSide Eating House.
+      </div>
+      </div>
+
+      <span class="lun din"><a href="sodam.html"><img src="resource/sodam1.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+      <div class="lun din"><span class="detail-l">소담한식</span>
+        <p></p>
+      <div class="detail-l-d">백반과 찌개가 맛있는 한식집
+      </div>
+      </div>
+    </div>
+
+    <div style="margin-top:20px" class="aa">
+      <span class="lun din"><a href="sobu.html"><img src="resource/sobu1.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+      <div class="lun din"><span class="detail-l">쇼부라멘</span>
+        <p></p>
+      <div class="detail-l-d">일본식 라면, 라멘 맛집
+      </div>
+      </div>
+
+      <span  class="lun din"><a href="seocho.html"><img src="resource/seocho1.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+      <div class="lun din"><span class="detail-l">서초우동</span>
+      <p></p>
+      <div class="detail-l-d">TV방영 우동 맛집. 옛날우동/비빔우동/쫄면
+      </div>
+      </div>
+
+      <span class="lun din"><a href="chef.html"><img src="resource/chef1.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+      <div class="lun din"><span class="detail-l">셰프의 돈까스</span>
+        <p></p>
+      <div class="detail-l-d">수제돈까스가 맛있는 집
+      </div>
+      </div>
+    </div>
+
+    <div style="margin-top:20px" class="aa">
+      <span class="lun"><a href="33k.html"><img src="resource/kach1.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+      <div class="lun"><span class="detail-l">카츠3.3</span>
+        <p></p>
+      <div class="detail-l-d">80주년 기념관 내 프랜차이즈 수제돈까스 정식점
+      </div>
+      </div>
+
+      <span  class="lun din"><a href="eom.html"><img src="resource/eom1.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+      <div class="lun din"><span class="detail-l">엄마의 밥상</span>
+      <p></p>
+      <div class="detail-l-d">포근하고 정갈한 백반 한상
+      </div>
+      </div>
+
+      <span  class="lun"><a href="ggo.html"><img src="resource/ggo1.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+      <div class="lun"><span class="detail-l">지지고</span>
+      <p></p>
+      <div class="detail-l-d">자극적이고 기름진 음식이 땡길 때
+      </div>
+      </div>
+    </div>
+
+    <div style="margin-top:20px" class="aa">
+      <span class="lun din"><a href="eon.html"><img src="resource/eon1.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+      <div class="lun din"><span class="detail-l">언니떡볶이 동생브리또</span>
+        <p></p>
+      <div class="detail-l-d">저렴한 단품 브리또, 무한리필 부대찌개와 떡볶이
+      </div>
+      </div>
+
+      <span  class="lun din"><a href="onesto.html"><img src="resource/onesto1.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+      <div class="lun din"><span class="detail-l">오네스토 테이블</span>
+      <p></p>
+      <div class="detail-l-d">광운대 스파게티, 파스타 및 양식 전문점
+      </div>
+      </div>
+
+      <span class="lun din"><a href="jin.html"><img src="resource/jinj1.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+      <div class="lun din"><span class="detail-l">진짜루</span>
+        <p></p>
+      <div class="detail-l-d">빨간 간판 중식당
+      </div>
+      </div>
+    </div>
+
+    <div style="margin-top:20px" class="aa">
+      <span class="lun din"><a href="wol.html"><img src="resource/wol1.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+      <div class="lun din"><span class="detail-l">월계숯불갈비</span>
+        <p></p>
+      <div class="detail-l-d">저렴하고 맛있는 갈비정식 맛집
+      </div>
+      </div>
+
+      <span class="lun din"><a href="jang.html"><img src="resource/jang1.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+      <div class="lun din"><span class="detail-l">장수 국수</span>
+        <p></p>
+      <div class="detail-l-d">저렴한 비빔국수, 잔치국수
+      </div>
+      </div>
+    </div>
+  </div>
+    <hr>
+
+    <div class="right" id="drink" align="left">
+    <span class="name-l">술집</span>
+    <div style="margin-top:20px" class="aa">
+      <span style="width:300px"><a href="sinsa.html"><img src="resource/sinsa4.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+      <div style="width:300px"><span class="detail-l">빈대떡신사</span>
+        <p></p>
+      <div class="detail-l-d">전을 포함한 맛있는 안주일체
+      </div>
+      </div>
+
+      <span style="width:300px"><a href="nogari.html"><img src="resource/nogari3.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+      <div style="width:300px"><span class="detail-l">짝태와 노가리</span>
+        <p></p>
+      <div class="detail-l-d">마른 안주가 먹고싶을 때, 2차로 갈만한 주점
+      </div>
+      </div>
+
+      <span style="width:300px"><a href="jinmi.html"><img src="resource/jinmi3.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+      <div style="width:300px"><span class="detail-l">진미곱창구이</span>
+        <p></p>
+      <div class="detail-l-d">곱창 막창 갈매기살,,
+      </div>
+      </div>
+    </div>
+
+    <div style="margin-top:20px" class="aa">
+      <span style="width:300px"><a href="bar.html"><img src="resource/bar3.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+      <div style="width:300px"><span class="detail-l">BAR플러스</span>
+        <p></p>
+      <div class="detail-l-d"> 칵테일이 먹고싶을 때는 여기
+      </div>
+      </div>
+
+      <span style="width:300px"><a href="beer.html"><img src="resource/beer1.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+      <div style="width:300px"><span class="detail-l">봉쥬비어</span>
+        <p></p>
+      <div class="detail-l-d">간단하게 맥주 한잔
+      </div>
+      </div>
+
+      <span style="width:300px"><a href="gong.html"><img src="resource/gong4.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+      <div style="width:300px"><span class="detail-l">공릉 통골뱅이</span>
+        <p></p>
+      <div class="detail-l-d">시원한 골뱅이와 넓은 좌석 구비
+      </div>
+      </div>
+    </div>
+
+    <div style="margin-top:20px" class="aa">
+      <span style="width:300px"><a href="mek.html"><img src="resource/mek1.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+      <div style="width:300px"><span class="detail-l">튀맥</span>
+        <p></p>
+      <div class="detail-l-d">맥주, 소주, 칵테일 등 30여가지의 술. 인기 꿀맥주!
+      </div>
+      </div>
+
+      <span style="width:300px"><a href="osaka.html"><img src="resource/osaka2.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+      <div style="width:300px"><span class="detail-l">오사카 브루스</span>
+        <p></p>
+      <div class="detail-l-d">저렴한 안주의 프랜차이즈 술집
+      </div>
+      </div>
+
+      <span style="width:300px"><a href="club.html"><img src="resource/club2.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+      <div style="width:300px"><span class="detail-l">치킨클럽</span>
+        <p></p>
+      <div class="detail-l-d">넓은 좌석을 구비한 역 앞 치킨집. 맛있는 치킨과 튀김요리
+      </div>
+      </div>
+    </div>
+    <div style="margin-top:20px" class="aa">
+      <span class="din"><a href="matggo.html"><img src="resource/ggo2.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+      <div class="din"><span class="detail-l">맛닭꼬</span>
+      <p></p>
+      <div class="detail-l-d">담백한 오븐치킨이 땡길 때
+      </div>
+      </div>
+
+      <span class="din"><a href="thunder.html"><img src="resource/thunder3.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+      <div class="din"><span class="detail-l">썬더치킨</span>
+        <p></p>
+      <div class="detail-l-d">바삭한 후라이드치킨
+      </div>
+      </div>
+    </div>
+  </div>
+    <hr>
+
+    <div class="right" id="cafe">
+    <span class="name-l">카페</span>
+    <p style="font-size:20px; font-weight:bold">
+      정문 <input type="checkbox" name="front" value="front" id="sel3">
+      후문 <input type="checkbox" name="back" value="back" id="sel4">
+      교내 <input type="checkbox" name="inner" value="inner" id="sel5">
+    </p>
+    <div style="margin-top:20px" class="aa">
+      <span class="hu"><a href="fm.html"><img src="resource/fm25.1st3.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+      <div class="hu"><span class="detail-l">FM25.1ST</span>
+        <p></p>
+      <div class="detail-l-d">
+        통유리와 내부에 식물들이 있어 이쁜 인테리어의 카페<br>
+      </div>
+      </div>
+
+      <span class="hu"><a href="small.html"><img src="resource/작은커피집4.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+      <div class="hu"><span class="detail-l">작은커피집</span>
+        <p></p>
+      <div class="detail-l-d">아담한 커피 허브티 카페
+      </div>
+      </div>
+
+      <span class="jung"><a href="bbak.html"><img src="resource/bbak2.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+      <div class="jung"><span class="detail-l">빽다방</span>
+        <p></p>
+      <div class="detail-l-d">믿고 마시는 백종원 프랜차이즈 카페
+      </div>
+      </div>
+      </div>
+    <div style="margin-top:20px" class="aa">
+        <span class="jung"><a href="yam.html"><img src="resource/yam1.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+        <div class="jung"><span class="detail-l">차얌</span>
+          <p></p>
+        <div class="detail-l-d">밀크티 차 <br>
+          맛있을 얌
+        </div>
+        </div>
+
+        <span class="jung"><a href="80.html"><img src="resource/801.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+        <div class="jung"><span class="detail-l">팔공티</span>
+          <p></p>
+        <div class="detail-l-d">예쁜 인테리어의 밀크티 카페
+        </div>
+        </div>
+
+        <span class="jung"><a href="cornred.html"><img src="resource/cornred2.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+        <div class="jung"><span class="detail-l">콘레드 커피</span>
+          <p></p>
+        <div class="detail-l-d">테이크아웃 전문 카페
+        </div>
+        </div>
+    </div>
+
+    <div style="margin-top:20px" class="aa">
+        <span class="jung"><a href="idiya.html"><img src="resource/idiya1.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+        <div class="jung"><span class="detail-l">이디야 커피</span>
+          <p></p>
+        <div class="detail-l-d">
+         공부하기 좋은 넓은 공간, 저렴한 가격의 커피<br>
+        </div>
+        </div>
+
+        <span class="jung"><a href="bing.html"><img src="resource/bing1.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+        <div class="jung"><span class="detail-l">설빙</span>
+          <p></p>
+        <div class="detail-l-d">호불호 없는 눈꽃 빙수 정문 앞 설빙.
+        </div>
+        </div>
+
+        <span class="jung"><a href="only.html"><img src="resource/only4.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+        <div class="jung"><span class="detail-l">커피 온리</span>
+          <p></p>
+        <div class="detail-l-d">저렴한 가격, 좋은 위치
+        </div>
+        </div>
+    </div>
+
+    <div style="margin-top:20px" class="aa">
+        <span class="inn"><a href="co.html"><img src="resource/co1.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+        <div class="inn"><span class="detail-l">bread & co</span>
+          <p></p>
+        <div class="detail-l-d">80주년 기념관 내 빵집 겸 카페
+        </div>
+        </div>
+
+        <span class="jung"><a href="so.html"><img src="resource/so1.png" style="width:250px; height:250px; border-radius:5px"></a></span>
+        <div class="jung"><span class="detail-l">요거프레소</span>
+          <p></p>
+        <div class="detail-l-d">맛있는 요거트 디저트 카페
+        </div>
+        </div>
+
+        <span class="jung"><a href="caf.html"><img src="resource/caf2.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+        <div class="jung"><span class="detail-l">휘드카페</span>
+          <p></p>
+        <div class="detail-l-d">예쁜 인테리어 와 디저트, 버블티 카페
+        </div>
+        </div>
+    </div>
+
+    <div style="margin-top:20px" class="aa">
+        <span class="jung"><a href="juicy.html"><img src="resource/juicy1.png" style="width:250px; height:250px; border-radius:5px"></a></span>
+        <div class="jung"><span class="detail-l">Juicy</span>
+          <p></p>
+        <div class="detail-l-d">달달한 생과일주스 프랜차이즈 카페
+        </div>
+        </div>
+
+        <span class="inn"><a href="gongcha.html"><img src="resource/gongcha1.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+        <div class="inn"><span class="detail-l">공차</span>
+          <p></p>
+        <div class="detail-l-d">다양한 버블티 프랜차이즈 카페
+        </div>
+        </div>
+
+        <span class="jung"><a href="street.html"><img src="resource/street3.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+        <div class="jung"><span class="detail-l">스트릿 츄러스</span>
+          <p></p>
+        <div class="detail-l-d">동해문화예술관 1층 달달한 초코와 츄러스
+        </div>
+        </div>
+    </div>
+
+    <div style="margin-top:20px" class="aa">
+        <span class="jung"><a href="verde.html"><img src="resource/verde2.png" style="width:250px; height:250px; border-radius:5px"></a></span>
+        <div class="jung"><span class="detail-l">카페 베르데</span>
+          <p></p>
+        <div class="detail-l-d">지하1층은 북카페 형식의 카페. 공부하고 보드게임도 하기 최적화된 카페.<br>
+        </div>
+        </div>
+
+        <span class="jung"><a href="mo.html"><img src="resource/mo3.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+        <div class="jung"><span class="detail-l">모월</span>
+          <p></p>
+        <div class="detail-l-d">나무공방과 카페가 함께 공존하는 곳
+        </div>
+        </div>
+
+        <span class="jung"><a href="oneone.html"><img src="resource/oneone2.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+        <div class="jung"><span class="detail-l">1일 1잔</span>
+          <p></p>
+        <div class="detail-l-d">수제 마카롱 카페
+        </div>
+        </div>
+    </div>
+
+    <div style="margin-top:20px" class="aa">
+        <span class="inn"><a href="pegasus.html"><img src="resource/pegasus1.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+        <div class="inn"><span class="detail-l">페가수스</span>
+          <p></p>
+        <div class="detail-l-d">광운대학교 비마관 2층. 카페 간식 및 서적 판매
+        </div>
+        </div>
+
+        <span class="inn"><a href="media.html"><img src="resource/media1.jpg" style="width:250px; height:250px; border-radius:5px"></a></span>
+        <div class="inn"><span class="detail-l">미디어 솔루션</span>
+          <p></p>
+        <div class="detail-l-d">광운대학교 옥의관 1층 카페. 아기자기한 벤치
+        </div>
+        </div>
+    </div>
+    <hr>
+
+</div>
+  </body>
+</html>

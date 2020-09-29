@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+  <head>
+    <title>GongSeolIp Team 2nd</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="font.css" tpyes="text/css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDT7sSTMO5sgyqu_1l0KuaIK_QAyv0U44c&callback=initMap"
+    async defer></script>
+    <script>
+    function initMap() {
+        var map = new google.maps.Map(document.getElementById('map'),{
+          center: {lat: 37.619456, lng: 127.057264},
+          zoom: 18
+        });
+
+        var marker = new google.maps.Marker({
+          position:{lat: 37.619456, lng: 127.057264},
+          map:map,
+          draggable:true,
+          animation:google.maps.Animation.BOUNCE,
+        });
+    }
+    </script>
+  </head>
+  <body>
+    <div class="back">
+    <nav><a href="introduce.html"><img src="resource/logo1.png" style="width:100px; height:70px; margin-left:20px; margin-top:20px; border-radius:15px"></a>
+    <div id="menu">
+    <ul>
+      <a href="introduce.html"><li class="menu-li">home</li></a>
+      <a href="intcol.html"><li class="menu-li">college</li></a>
+      <a href="intres.html"><li class="menu-li">restaurant</li></a>
+    </ul>
+    </div>
+    </nav>
+    <div>
+      <h3 style="margin-top:5px">경대컵밥</h3><!--소개 방향 후문~정문-->
+      <div style="margin-left:400px; color:gray ;margin-bottom:30px;">도시락, 컵밥 혼밥 맛집</div>
+      <span class="det-img">
+        <img src="resource/kyung1.jpg" style="width:400px ;height:400px">
+        <img src="resource/kyung2.jpg"style="width:400px;height:400px">
+        <img src="resource/kyung3.jpg"style="width:400px;height:400px">
+        <img src="resource/kyung4.jpg"style="width:400px;height:400px">
+      </span>
+      <span style="width:1600px; height:1000px; display:flex">
+        <div style="margin-top:100px ;margin-left:50px; border-right:2px solid brown; border-left:2px solid brown;width:1300px; height:750px;border-bottom:2px solid brown">
+          <div class="det-tit">
+            업종
+          </div>
+          <div class="det-det">
+            한식 > 덮밥
+          </div>
+          <div class="det-tit">
+            전화번호
+          </div>
+          <div class="det-det">
+            050-4109-0807
+          </div>
+          <div class="det-tit">
+            주소
+          </div>
+          <div class="det-det">
+            서울 노원구 광운로17-13
+          </div>
+          <div class="det-tit">
+            영업시간
+          </div>
+          <div class="det-det">
+            매일 10:00 ~ 22:00
+          </div>
+          <div class="det-tit">
+            대표메뉴
+          </div>
+          <div class="det-det">
+            경대컵밥 (3,200원)<br>
+            빅치킨마요 (3,500원)<br>
+          </div>
+
+        </div>
+        <span style="margin-top:70px; margin-left:70px;">
+          <div id="map"></div>
+          <a href="https://map.naver.com/v5/directions/14144080.429905552,4525854.532796016,%EA%B4%91%EC%9A%B4%EB%8C%80%ED%95%99%EA%B5%90,11591508,PLACE_POI/-/-/transit?c=14143300.9949770,4526065.7558501,14,0,0,0,dh"><img src="resource/road.jpg" style="width:200px; height:200px; border-radius:20px; margin-top:50px"></a>
+        </span>
+      </span>
+    </div>
+
+
+    </div>
+  </body>
+</html>
